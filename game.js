@@ -214,10 +214,7 @@ var Game = (function () {
 
         this.update(delta / 1000);
         this.render();
-
         this.last = now;
-
-        this.render();
         requestAnimationFrame(this.start);
 
     }
